@@ -497,10 +497,12 @@ button {
         margin-bottom: 30px;
     }
     .main {
+        max-width: 600px;
+        margin: 0 auto;
         flex-direction: column;
     }
     .main li {
-        width: 75%;
+        min-width: 100%;
         margin: 0 auto 30px;
         display: flex;
         flex-direction: column;
