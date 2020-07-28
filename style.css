@@ -382,6 +382,8 @@ input {
     width: 350px;
     height: 64px;
     padding-left: 60px;
+    background-color: #EAF0ED;
+    border: none;
 }
 
 .footer-icon {
@@ -393,10 +395,9 @@ input {
 button {
     background: #FFE180;
     width: 64px;
-    height: 68px;
+    height: 66px;
     position: absolute;
     right: 0px;
-    top: 1px;
     border: none;
 }
 
@@ -497,12 +498,12 @@ button {
         margin-bottom: 30px;
     }
     .main {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
         flex-direction: column;
     }
     .main li {
-        min-width: 100%;
+        width: 90%;
         margin: 0 auto 30px;
         display: flex;
         flex-direction: column;
