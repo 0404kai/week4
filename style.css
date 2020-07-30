@@ -164,7 +164,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 900px;
+    width: 100%;
 }
 
 .icon h2 {
@@ -188,10 +188,6 @@ img {
 .little-icon {
     padding: 10px 15px;
     margin-top: 35px;
-}
-
-.little-icon img {
-    max-width: 100%;
 }
 
 .nav {
@@ -498,7 +494,7 @@ button {
         margin-bottom: 30px;
     }
     .main {
-        max-width: 700px;
+        max-width: 720px;
         margin: 0 auto;
         flex-direction: column;
     }
